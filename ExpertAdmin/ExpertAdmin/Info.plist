@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSDocumentDirectoryUsageDescription</key>
+	<string>Это приложение требует доступ к файлам, для выдачи заказчикам экспертизы</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Это приложение требует доступа к вашим документам.</string>
+	<key>CFBundleName</key>
+	<string>МойАдмин</string>
+	<key>CFBundleDisplayName</key>
+	<string>Мой Админ</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>NSDocumentDirectoryUsageDescription</key>
+		<true/>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<true/>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
